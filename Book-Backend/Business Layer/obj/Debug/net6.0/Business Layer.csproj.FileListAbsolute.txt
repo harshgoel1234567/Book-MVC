@@ -1,0 +1,15 @@
+C:\Users\harshgoel\OneDrive - Nagarro\Desktop\Book-Assignment\Book-Backend\Business Layer\bin\Debug\net6.0\Business Layer.deps.json
+C:\Users\harshgoel\OneDrive - Nagarro\Desktop\Book-Assignment\Book-Backend\Business Layer\bin\Debug\net6.0\Business Layer.dll
+C:\Users\harshgoel\OneDrive - Nagarro\Desktop\Book-Assignment\Book-Backend\Business Layer\bin\Debug\net6.0\Business Layer.pdb
+C:\Users\harshgoel\OneDrive - Nagarro\Desktop\Book-Assignment\Book-Backend\Business Layer\obj\Debug\net6.0\Business Layer.csproj.AssemblyReference.cache
+C:\Users\harshgoel\OneDrive - Nagarro\Desktop\Book-Assignment\Book-Backend\Business Layer\obj\Debug\net6.0\Business Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harshgoel\OneDrive - Nagarro\Desktop\Book-Assignment\Book-Backend\Business Layer\obj\Debug\net6.0\Business Layer.AssemblyInfoInputs.cache
+C:\Users\harshgoel\OneDrive - Nagarro\Desktop\Book-Assignment\Book-Backend\Business Layer\obj\Debug\net6.0\Business Layer.AssemblyInfo.cs
+C:\Users\harshgoel\OneDrive - Nagarro\Desktop\Book-Assignment\Book-Backend\Business Layer\obj\Debug\net6.0\Business Layer.csproj.CoreCompileInputs.cache
+C:\Users\harshgoel\OneDrive - Nagarro\Desktop\Book-Assignment\Book-Backend\Business Layer\obj\Debug\net6.0\Business Layer.dll
+C:\Users\harshgoel\OneDrive - Nagarro\Desktop\Book-Assignment\Book-Backend\Business Layer\obj\Debug\net6.0\refint\Business Layer.dll
+C:\Users\harshgoel\OneDrive - Nagarro\Desktop\Book-Assignment\Book-Backend\Business Layer\obj\Debug\net6.0\Business Layer.pdb
+C:\Users\harshgoel\OneDrive - Nagarro\Desktop\Book-Assignment\Book-Backend\Business Layer\obj\Debug\net6.0\ref\Business Layer.dll
+C:\Users\harshgoel\OneDrive - Nagarro\Desktop\Book-Assignment\Book-Backend\Business Layer\bin\Debug\net6.0\Data Access Layer.dll
+C:\Users\harshgoel\OneDrive - Nagarro\Desktop\Book-Assignment\Book-Backend\Business Layer\bin\Debug\net6.0\Data Access Layer.pdb
+C:\Users\harshgoel\OneDrive - Nagarro\Desktop\Book-Assignment\Book-Backend\Business Layer\obj\Debug\net6.0\Business Layer.csproj.CopyComplete

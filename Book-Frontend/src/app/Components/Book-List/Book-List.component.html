@@ -1,0 +1,76 @@
+ <!--<div class="search">
+ <input style="width: 420px;" type="text" [(ngModel)]="searchQuery" placeholder="Search for cars..." required>
+<button class="btn" (click)="filterCars(selectedFilter)">Search</button>
+<br/>
+
+  <select   style="cursor:pointer;margin-top: 12px; width:40%;" [(ngModel)]="selectedFilter">
+    <option value="all">All</option>
+    <option value="maker">Maker</option>
+    <option value="model">Model</option>
+    <option value="rentalPrice">Rental Price</option>
+
+  </select>
+
+
+</div>-->
+
+<a href="/Add" style="cursor: pointer; border:2px solid black;margin: 4px;padding: 4px;background-color:green;color:white;position:absolute; top:100px;left:40px">Add-Book</a>
+<table class="table center ">
+  <thead>
+    <tr>
+      <th style="background-color: black; color: white;" scope="col">Name</th>
+      <th style="background-color: black; color: white;" scope="col">Rating</th>
+      <th style="background-color: black; color: white;" scope="col">Author</th>
+      <th style="background-color: black; color: white;" scope="col">Genre</th>
+      <th style="background-color: black; color: white;" scope="col">Availability Status</th>
+      <th style="background-color: black; color: white;" scope="col">Description</th>
+
+      <th style="background-color: rgb(0, 0, 0); color: white;" scope="col"> Book</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <!--<ng-container *ngIf="!for && searchQuery ; else normalDetails">
+
+      <ng-container *ngFor="let e of filteredDetails; let i = index">
+        <tr>
+          <td>{{ e.model }}</td>
+          <td>{{e.maker }}</td>
+          <td>{{e.rental_Price }} Rs</td>
+          <td>{{ e.availability_status ? 'Available' : 'Not Available' }}</td>
+          <td>
+            <ng-container *ngIf="e.availability_status; else notAvailable">
+              <a style="padding: 5px; border: 2px solid blue; background-color: antiquewhite;" [routerLink]="['/detail', e.id]">Book</a>
+            </ng-container>
+            <ng-template #notAvailable>Booking Closed</ng-template>
+          </td>
+          <td>
+            <a style="margin-left: 12px; background-color: red;color: aliceblue;">Edit</a>
+            <button style="margin-left: 12px; background-color: green;color: aliceblue;">Delete</button>
+          </td>
+
+        </tr>
+      </ng-container>
+    </ng-container>
+    <ng-template #normalDetails>-->
+    <ng-container *ngFor="let Item of book; let i = index">
+      <tr>
+        <td>{{ Item.book_Name }}</td>
+        <td>{{ Item.rating }}</td>
+        <td>{{ Item.author }}</td>
+        <td>{{ Item.genre }}</td>
+
+        <td>{{ Item.aavailability_status ? 'A' : 'NA' }}</td>
+        <td>{{Item.description}}</td>
+        <td>
+          <ng-container *ngIf="Item.aavailability_status==true; else notAvailable">
+            <a   style="padding: 5px; border: 2px solid blue; background-color: antiquewhite;" [routerLink]="['/detail', Item.id]">Borrow</a>
+          </ng-container>
+          <ng-template #notAvailable>Booking Closed</ng-template>
+        </td>
+
+      </tr>
+    </ng-container>
+
+  </tbody>
+</table>

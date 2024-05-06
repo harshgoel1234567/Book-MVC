@@ -1,0 +1,67 @@
+table{
+
+
+  margin-top: 57px;
+  border: 2px solid black;
+
+  margin-left: 155px;
+  width: 902px;
+  height: auto;
+
+}
+.search{
+  margin-left: 700px;
+  margin-top: 17px;
+  border-radius: 45px;
+}
+.search input{
+  border-radius: 20px;
+  width: 100%;
+  padding: 5px;
+}
+.btn{
+  width: 70px;
+  font-size: 17px;
+ height:35px;
+ margin-left: 5px;
+   margin-top: -4px;
+   padding: 6px;
+
+   border-radius: 12px;
+   background-color: black;
+   color:white;
+}
+
+.ii{
+  margin-right: 300px;
+  margin-top: -12px;
+}
+
+a{
+  color:black;
+  list-style-type:none;
+  text-decoration: none;
+}
+
+td, th{
+  border-right: 1px solid black;
+}
+tr
+{
+  height:50px;
+  text-align: center;
+}
+
+span{
+  border:2px solid black;
+  width:30px;
+  height:10px;
+  gap:52px;
+  cursor:pointer;
+
+}
+.pagination{
+ margin-left:450px;
+ gap:8px;
+}
+

@@ -1,0 +1,38 @@
+
+<div class="container my-5">
+  <h1 class="col-12 m-3 ">Add-NewBook</h1>
+  <form #form="ngForm" (ngSubmit)="AddBook()" class="col-12">
+
+    <div class="form-group col-md-6 m-3">
+      <label for="maker">Name</label>
+      <input required type="text" id="Name" name="Name" class="form-control" [(ngModel)]="book.book_Name">
+    </div>
+    <div class="form-group col-md-6 m-3">
+      <label for="model">Rating</label>
+      <input required type="number" id="Rating" name="Rating" class="form-control" [(ngModel)]="book.rating">
+    </div>
+    <div class="form-group col-md-6 m-3">
+      <label for="rentalPrice">Author</label>
+      <input required type="text" id="Author" name="Author" class="form-control" [(ngModel)]="book.author">
+    </div>
+    <div class="form-group col-md-6 m-3">
+      <label for="rentalPrice">Genre</label>
+      <input required type="text" id="Genre" name="Genre" class="form-control" [(ngModel)]="book.genre">
+    </div>
+
+    <div class="form-group col-md-6 m-3">
+      <label for="rentalPrice">Description</label>
+      <input required type="text" id="Description" name="Description" class="form-control" [(ngModel)]="book.description">
+    </div>
+    <div class="form-group col-md-6 m-3">
+      <label for="rentalPrice">Lent_By_User_Id</label>
+      <input required type="text" id="Lent_Id" name="Lent_Id" class="form-control" [(ngModel)]="book.lent_Id">
+    </div>
+    <div class="form-group col-md-6 m-3">
+      <label for="rentalPrice">Currently_Borrowed_By_User_Id</label>
+      <input required type="text" id="Borrowed_Id" name="Borrowed_Id" class="form-control" [(ngModel)]="book.borrowed_Id">
+    </div>
+
+    <button style="margin-top: 12px;" type="submit" class="btn btn-primary col-md-6 m-3">Submit</button>
+  </form>
+</div>

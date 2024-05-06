@@ -1,0 +1,23 @@
+<div class="container my-5">
+  <h1 class="mb-3">Login</h1>
+
+
+    <form #form="ngForm" (ngSubmit)="check()">
+
+      <div class="form-group col-6 m-3">
+        <label for="email">Username</label>
+        <input type="text" class="form-control" name="email"  [(ngModel)]="user.username"  placeholder="Enter email" >
+
+      </div>
+
+      <div class="form-group col-6 m-3">
+        <label for="salary">Passowrd</label>
+        <input type="password" class="form-control" name="password" [(ngModel)]="user.password"  placeholder="Enter Password">
+
+      </div>
+
+
+      <button type="submit" class="btn btn-primary m-3">Login</button>
+    </form>
+
+  </div>
